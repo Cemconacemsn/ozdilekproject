@@ -1,0 +1,44 @@
+Created by testinium on 28.02.2022
+
+This is a concept file with following syntax for each concept.
+# Basla butonu tıklanır
+* "6" saniye kadar bekle
+* id "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" li elemente tıkla
+* "5" saniye kadar bekle
+# Kategorilere gidilir
+* id "com.ozdilek.ozdilekteyim:id/nav_categories" li elemente tıkla
+* "5" saniye kadar bekle
+# Kadın katagorisine tıklanır
+* xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][2]" li elemente tıkla
+* "5" saniye kadar bekle
+# Kadın pantolon sayfasına gidilir
+* xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][14]" li elemente tıkla
+* "10" saniye kadar bekle
+# Asagıya kaydırılır
+* "asagıya kaydır"
+* "5" saniye kadar bekle
+* "asagıya kaydır"
+* "5" saniye kadar bekle
+# Rastgele ürün seçimi yapılır
+* "//*[@resource-id = 'com.ozdilek.ozdilekteyim:id/recyclerView']/android.widget.FrameLayout" rastgele ürün secildi
+* "10" saniye kadar bekle
+# Ürün favorilere eklenir
+* id "com.ozdilek.ozdilekteyim:id/imgFav" li elemente tıkla
+* "10" saniye kadar bekle
+# Login işlemli yapılır
+* "com.ozdilek.ozdilekteyim:id/etEposta" İd'li elemente "mehmetcem.bilgin@testinium.com" değerini yaz
+* "10" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/etPassword" İd'li elemente "123asd123qwe" değerini yaz
+* "10" saniye kadar bekle
+# Favoriden birinci geri dönüş
+* id "com.ozdilek.ozdilekteyim:id/ivBack" li elemente tıkla
+* "10" saniye kadar bekle
+# Favoriden ikinci geri dönüş
+* id "com.ozdilek.ozdilekteyim:id/ivBack" li elemente tıkla
+* "10" saniye kadar bekle
+# Rastgele ürün seçim yapılır
+* "//*[@resource-id = 'com.ozdilek.ozdilekteyim:id/recyclerView']/android.widget.FrameLayout" rastgele ürün secildi
+* "10" saniye kadar bekle
+# Seçilen ürün Sepete eklenir
+* id "com.ozdilek.ozdilekteyim:id/relLayAddCartBtn" li elemente tıkla
+* "10" saniye kadar bekle
